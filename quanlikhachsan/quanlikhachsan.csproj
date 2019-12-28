@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{59B228D8-800D-46B2-AF3C-ACA2E03CB787}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>quanlikhachsan</RootNamespace>
+    <AssemblyName>quanlikhachsan</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="adminquanly.aspx" />
+    <Content Include="beboi.aspx" />
+    <Content Include="chantrang.html" />
+    <Content Include="dangnhap.aspx" />
+    <Content Include="dangnhap.css" />
+    <Content Include="datphong.aspx" />
+    <Content Include="hnghi.aspx" />
+    <Content Include="huyphong.aspx" />
+    <Content Include="images\10_26_49_ha-long-1.jpg" />
+    <Content Include="images\11_32_52_executive-bay-view.jpg" />
+    <Content Include="images\15_13_21_supperior.jpg" />
+    <Content Include="images\180712-5-2000-fac-saigon-hotel.jpg.thumb.768.768.jpg" />
+    <Content Include="images\alaca.jpg" />
+    <Content Include="images\calendar.png" />
+    <Content Include="images\foody-mobile-2-jpg-966-636142827370069795.jpg" />
+    <Content Include="images\hilton-banner3.jpg" />
+    <Content Include="images\hilton-hanoi-opera-img-4.jpg" />
+    <Content Include="images\images.jpg" />
+    <Content Include="images\image_85.jpg" />
+    <Content Include="images\image_87.jpg" />
+    <Content Include="images\khach-san-hilton.jpg" />
+    <Content Include="images\khong gian sang trong sotifel.jpg" />
+    <Content Include="images\lon_52_1252935764.jpg" />
+    <Content Include="images\lon_52_943794247.jpg" />
+    <Content Include="images\lon_5_328355952.jpg" />
+    <Content Include="images\lon_5_592780551.jpg" />
+    <Content Include="images\lon_5_749041883.jpg" />
+    <Content Include="images\lon_78_1174838676.jpg" />
+    <Content Include="images\lon_78_1317270897.jpg" />
+    <Content Include="images\lon_79_857090886.jpg" />
+    <Content Include="images\lon_82_1130839654.jpg" />
+    <Content Include="images\lon_82_267424925.jpg" />
+    <Content Include="images\lon_82_796223924.jpg" />
+    <Content Include="images\lon_82_919129318.jpg" />
+    <Content Include="images\Navy-flower-hotel-Đà-Lạt.jpg" />
+    <Content Include="images\nha-hang-khach-san-4.jpg" />
+    <Content Include="images\to-chuc-hoi-nghi%285%29.jpg" />
+    <Content Include="khachsanth.aspx" />
+    <Content Include="khuvuichoitreem.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="menutop.html" />
+    <Content Include="nhahang.aspx" />
+    <Content Include="phongconn.aspx" />
+    <Content Include="phongdlx.aspx" />
+    <Content Include="phonggym.aspx" />
+    <Content Include="phongstd.aspx" />
+    <Content Include="phongsup.aspx" />
+    <Content Include="phongsut.aspx" />
+    <Content Include="slide.js" />
+    <Content Include="spa.aspx" />
+    <Content Include="Style.css" />
+    <Content Include="Style1.css" />
+    <Content Include="Stylead.css" />
+    <Content Include="Styleadmin.css" />
+    <Content Include="Styleadminquanly.css" />
+    <Content Include="stylelogin.css" />
+    <Content Include="Stylephong.css" />
+    <Content Include="StyleSlide.css" />
+    <Content Include="themnhanvien.aspx" />
+    <Content Include="themphong.aspx" />
+    <Content Include="trangchu.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="access.cs" />
+    <Compile Include="adminquanly.aspx.cs">
+      <DependentUpon>adminquanly.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminquanly.aspx.designer.cs">
+      <DependentUpon>adminquanly.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="beboi.aspx.cs">
+      <DependentUpon>beboi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="beboi.aspx.designer.cs">
+      <DependentUpon>beboi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dangnhap.aspx.cs">
+      <DependentUpon>dangnhap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dangnhap.aspx.designer.cs">
+      <DependentUpon>dangnhap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="datphong.aspx.cs">
+      <DependentUpon>datphong.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="datphong.aspx.designer.cs">
+      <DependentUpon>datphong.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="hnghi.aspx.cs">
+      <DependentUpon>hnghi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hnghi.aspx.designer.cs">
+      <DependentUpon>hnghi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="huyphong.aspx.cs">
+      <DependentUpon>huyphong.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="huyphong.aspx.designer.cs">
+      <DependentUpon>huyphong.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="khachsanth.aspx.cs">
+      <DependentUpon>khachsanth.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="khachsanth.aspx.designer.cs">
+      <DependentUpon>khachsanth.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="khuvuichoitreem.aspx.cs">
+      <DependentUpon>khuvuichoitreem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="khuvuichoitreem.aspx.designer.cs">
+      <DependentUpon>khuvuichoitreem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="nhahang.aspx.cs">
+      <DependentUpon>nhahang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="nhahang.aspx.designer.cs">
+      <DependentUpon>nhahang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="phongconn.aspx.cs">
+      <DependentUpon>phongconn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="phongconn.aspx.designer.cs">
+      <DependentUpon>phongconn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="phongdlx.aspx.cs">
+      <DependentUpon>phongdlx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="phongdlx.aspx.designer.cs">
+      <DependentUpon>phongdlx.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="phonggym.aspx.cs">
+      <DependentUpon>phonggym.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="phonggym.aspx.designer.cs">
+      <DependentUpon>phonggym.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="phongstd.aspx.cs">
+      <DependentUpon>phongstd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="phongstd.aspx.designer.cs">
+      <DependentUpon>phongstd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="phongsup.aspx.cs">
+      <DependentUpon>phongsup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="phongsup.aspx.designer.cs">
+      <DependentUpon>phongsup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="phongsut.aspx.cs">
+      <DependentUpon>phongsut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="phongsut.aspx.designer.cs">
+      <DependentUpon>phongsut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="spa.aspx.cs">
+      <DependentUpon>spa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="spa.aspx.designer.cs">
+      <DependentUpon>spa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="themnhanvien.aspx.cs">
+      <DependentUpon>themnhanvien.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="themnhanvien.aspx.designer.cs">
+      <DependentUpon>themnhanvien.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="themphong.aspx.cs">
+      <DependentUpon>themphong.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="themphong.aspx.designer.cs">
+      <DependentUpon>themphong.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="trangchu.aspx.cs">
+      <DependentUpon>trangchu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="trangchu.aspx.designer.cs">
+      <DependentUpon>trangchu.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53472</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:53472/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

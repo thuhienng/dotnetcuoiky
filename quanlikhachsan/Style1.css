@@ -1,0 +1,16 @@
+﻿body {
+}
+* {
+  box-sizing: border-box;
+}
+article{
+    width:33.33%;
+    text-align: justify;	
+    float:left;
+    padding:1em;
+}
+section:after{
+    content:"";
+    clear:both;
+    display:table;
+}

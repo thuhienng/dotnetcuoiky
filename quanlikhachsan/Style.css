@@ -1,0 +1,169 @@
+﻿
+body{
+	background: white;
+	margin:0;
+	padding:0;
+	font-family: Times;
+	font-size: 0.9em;
+	line-height:1.5em;
+}
+
+#main{
+	width:1200px;
+	margin:0 auto;
+	}
+#slideanh{
+                    h2 {
+            text-align: center;
+          }
+          /* Slideshow container */
+          .slideshow-container {
+            max-width: 500px;
+            position: relative;
+            margin: auto;
+          }
+          /* Ẩn các slider */
+          .mySlides {
+              display: none;
+          }
+          /* Định dạng nội dung Caption */
+          .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+          }
+
+          /* định dạng các chấm chuyển đổi các slide */
+          .dot {
+            cursor:pointer;
+            height: 13px;
+            width: 13px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+          }
+          /* khi được hover, active đổi màu nền */
+          .active, .dot:hover {
+            background-color: #717171;
+          }
+
+          /* Thêm hiệu ứng khi chuyển đổi các slide */
+          .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 3s;
+            animation-name: fade;
+            animation-duration: 3s;
+          }
+
+          @-webkit-keyframes fade {
+            from {opacity: .4} 
+            to {opacity: 1}
+          }
+
+          @keyframes fade {
+            from {opacity: .4} 
+            to {opacity: 1}
+          }
+       
+}
+
+#menutop{
+    text-align:center;
+	height:50px;
+  	background:black;
+	color: white;
+}
+#menutop ul{
+
+	padding:0;
+	list-style:none;
+}
+#menutop ul li{
+    float: left;   
+    text-align:center;
+    width: 170px;
+    position:relative;
+}
+
+#menutop ul li a{
+	display: inline-block;
+	text-decoration: none;
+	color:white;
+    background:black;
+	padding: 7px 17px;
+	font-weight: bold;  
+    width: 170px;  
+}
+
+#menutop ul li a:hover{
+	color:#FF9900;
+	
+}
+#menutop ul li ul{
+    
+    display:none;
+    position: absolute;
+    margin-left:4px;
+}
+#menutop ul li:hover ul{
+    display:block;
+}
+
+.btndphong{
+  margin-left:100px;
+  margin-top:5px;
+  background-color: Crimson;
+  border: none;
+  color: white;
+  padding: 10px 27px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;  
+  background-color: #FF9900; 
+  border-radius: 6px;   
+  font-family:'Times New Roman'; 
+}
+.btnxemthem{
+  margin-left:100px;
+  margin-top:5px;
+  background-color: Crimson;
+  border: none;
+  color: white;
+  padding: 10px 27px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;  
+  background-color: #FF9900; 
+  border-radius: 6px;   
+  font-family:'Times New Roman'; 
+}
+#footer{
+    margin-top:500px;
+	background: #000000;
+	padding:20px;
+    text-align: left;
+}
+
+#ttlh{
+    text-align:left;
+    margin-left: 50px;
+    margin-right: auto; 
+    margin-top:10px; 
+    font-size: 15px;
+    color: white;
+    background: #000000;
+    font-weight: bold;
+
+}

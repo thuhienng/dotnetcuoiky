@@ -1,0 +1,6 @@
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\quanlikhachsan\quanlikhachsan\bin\quanlikhachsan.dll.config
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\quanlikhachsan\quanlikhachsan\bin\quanlikhachsan.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\quanlikhachsan\quanlikhachsan\bin\quanlikhachsan.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\quanlikhachsan\quanlikhachsan\obj\Debug\quanlikhachsan.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\quanlikhachsan\quanlikhachsan\obj\Debug\quanlikhachsan.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\quanlikhachsan\quanlikhachsan\obj\Debug\quanlikhachsan.pdb
